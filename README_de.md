@@ -1,4 +1,144 @@
+[![Sample](https://storage.ko-fi.com/cdn/generated/zfskfgqnf/2025-03-07_rest-7d81acd901abf101cbdf54443c38f6f0-dlmmonph.jpg)](https://ko-fi.com/silviosmart)
 
+## Supporte mich / Support Me
+
+Wenn dir meine Arbeit gefällt und du möchtest, dass ich die Entwicklung der Karten fortsetze, kannst du mir einen Kaffee ausgeben.\
+If you like my work and want me to continue developing the cards, you can buy me a coffee.
+
+[![PayPal](https://img.shields.io/badge/Donate-PayPal-%2300457C?style=for-the-badge&logo=paypal&logoColor=white)](https://www.paypal.com/donate/?hosted_button_id=Z6KY9V6BBZ4BN)
+
+Vergiss nicht, mir auf Social Media zu folgen:\
+Don't forget to follow me on social media:
+
+[![TikTok](https://img.shields.io/badge/Follow_TikTok-%23000000?style=for-the-badge&logo=tiktok&logoColor=white)](https://www.tiktok.com/@silviosmartalexa)
+[![Instagram](https://img.shields.io/badge/Follow_Instagram-%23E1306C?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/silviosmartalexa)
+[![YouTube](https://img.shields.io/badge/Subscribe_YouTube-%23FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@silviosmartalexa)
+
+# 🧭 Benutzerdefinierte Sidebar & Header für Home Assistant
+[🇮🇹 Italiano](README.it.md)
+
+# Header Flip Modus
+![Header flip animation](img/Header-Flip_Mode.gif)
+
+# Header Push Modus
+![Header push](img/Header-Push_Mode.gif)
+
+## 📸 Screenshots
+<p align="center">
+  <img src="img/1.PNG" width="48%">
+  <img src="img/2.PNG" width="48%">
+</p>
+<p align="center">
+  <img src="img/3.PNG" width="48%">
+  <img src="img/4.PNG" width="48%">
+</p>
+<p align="center">
+  <img src="img/5.PNG" width="48%">
+  <img src="img/6.PNG" width="48%">
+</p>
+
+Ein vollständig anpassbares **Header + Sidebar Layout-System für Home Assistant**, modern, flexibel und responsiv – mit voller Lovelace-Kompatibilität.
+
+---
+
+## ⭐ Hauptfunktionen
+
+- Responsive Sidebar-Breite (Mobil / Tablet / Desktop)
+- Fixierter / Glasstil-Header
+- **4 Menüstile (Liste / Breit / Buttons / Grid)**
+- Bedingte Menüeinträge
+- Individuelle Farben und Icons pro Eintrag
+- Optionales Ausblenden der Standard HA Sidebar + Top-Bar
+- Template-Bereich für Begrüßung / eigenes HTML
+- Unterstützt jede Lovelace-Karte im Header & in der Sidebar
+- Funktioniert mit Kiosk-Modus
+- Sicher — verändert nicht das Lovelace-Kernlayout
+- 🆕 Integrierter grafischer Editor
+
+---
+
+## 🖊️ Grafischer Editor (nur Admin)
+
+<p align="center">
+  <img src="img/setting1.png" width="28%">
+  <img src="img/setting2.png" width="48%">
+</p>
+
+Administratoren können Sidebar und Header visuell konfigurieren.
+
+### Öffnen
+
+1. Toolbar-Button 🖊 oben rechts
+2. ⚙ Symbol unten in Sidebar
+
+### Tabs
+
+| Tab | Beschreibung |
+|-----|-------------|
+| Sidebar | Sidebar konfigurieren |
+| Header | Header konfigurieren |
+| YAML | Direkt YAML bearbeiten |
+
+### Karten
+
+Alle Karten verwenden YAML.
+
+```yaml
+type: custom:button-card
+entity: light.living_room
+name: "Wohnzimmer"
+icon: mdi:sofa
+```
+
+### Speichern
+
+- Storage-Modus: automatisch speichern
+- YAML-Modus: Snippet erzeugen
+
+---
+
+# 📦 Installation
+
+## HACS
+Installation über HACS möglich.
+
+## Manuell
+
+```
+/config/www/sidebar-card.js
+```
+
+```yaml
+url: /local/sidebar-card.js
+type: module
+```
+
+---
+
+# 🚀 Grundsetup
+
+```yaml
+sidebar:
+  enabled: true
+
+header:
+  enabled: true
+```
+
+---
+
+# 🛠 Fehlerbehebung
+
+- Cache leeren
+- Plugins deaktivieren
+- Ohne Theme testen
+
+---
+
+# ❤️ Credits
+Danke an DBuit
+
+Für die HA Community 🙂
 
 
 
